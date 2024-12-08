@@ -276,6 +276,10 @@ button:hover {
 
   h1 {
     font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 
   .input-section {
@@ -322,5 +326,12 @@ button:hover {
 
   body {
     padding: 10px;
+  }
+
+  .header-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
 }
