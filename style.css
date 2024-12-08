@@ -265,3 +265,62 @@ button:hover {
 [data-theme="dark"] .filter-section {
   background: rgba(51, 71, 86, 0.9);
 }
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .input-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-section button {
+    width: 100%;
+  }
+
+  .filter-section {
+    flex-wrap: wrap;
+  }
+
+  .filter-btn {
+    flex: 1;
+    min-width: 80px;
+    text-align: center;
+  }
+
+  .task-item {
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .button-group {
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .edit-input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .task-checkbox {
+    align-self: flex-start;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
