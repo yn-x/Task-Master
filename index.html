@@ -6,8 +6,10 @@
     <title>Task Master</title>
     <link rel="icon" type="image/png" href="assets/icons/checked.png" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,9 +21,12 @@
     <div class="container">
       <div class="header-section">
         <h1>Task Master <i class="fas fa-check-circle"></i></h1>
-        <button id="themeToggle" class="theme-toggle">
-          <i class="fas fa-moon"></i>
-        </button>
+        <label class="ui-switch">
+          <input type="checkbox" id="themeToggle" />
+          <div class="slider">
+            <div class="circle"></div>
+          </div>
+        </label>
       </div>
 
       <div class="input-section">
@@ -41,6 +46,7 @@
 
       <ul id="taskList"></ul>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
