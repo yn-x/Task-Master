@@ -36,18 +36,32 @@ cd Task-Master
 ```
 
 ### 2. Open the Application
-Simply open `index.html` in your web browser:
-- **Option 1**: Double-click `index.html`
-- **Option 2**: Right-click → Open with → Your preferred browser
-- **Option 3**: Use a local server (recommended for development):
-  ```bash
-  # Using Python 3
-  python -m http.server 8000
-  
-  # Using Node.js (with http-server package)
-  npx http-server
-  ```
-  Then navigate to `http://localhost:8000`
+
+**Option 1: Live Server Extension (Recommended)**
+- Install the "Live Server" extension in VS Code (by Ritwick Dey)
+- Right-click `index.html` → Select "Open with Live Server"
+- The app opens automatically in your browser with live reload
+
+**Option 2: Live Preview Extension**
+- Install the "Live Preview" extension in VS Code (by Microsoft)
+- Open `index.html` and click "Show Preview" in the top-right corner
+- App runs directly in VS Code with live updates
+
+**Option 3: Local Server via Terminal**
+1. Open terminal in the project folder
+2. Run one of these commands:
+   ```bash
+   # Using Python 3 (Windows/Mac/Linux)
+   python -m http.server 8000
+   
+   # Using Node.js (with http-server package)
+   npx http-server
+   ```
+3. Navigate to `http://localhost:8000` in your browser
+
+**Option 4: Direct Browser**
+- Double-click `index.html` to open in your default browser
+- Simple but lacks some features compared to local server options
 
 ### 3. Start Managing Tasks
 - Type a task in the input field
