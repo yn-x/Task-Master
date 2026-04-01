@@ -31,7 +31,7 @@ A simple and elegant task management application built with vanilla JavaScript, 
 
 ### 1. Clone or Download the Project
 ```bash
-git clone https://github.com/yourusername/Task-Master.git
+git clone https://github.com/yn-x/Task-Master.git
 cd Task-Master
 ```
 
